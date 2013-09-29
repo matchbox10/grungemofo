@@ -280,7 +280,7 @@ margin: 0px 10px 10px 10px;
 /* Comments */
 
 .grunge-comment-wrapper {
-	width:575px;
+	width:555px;
 	margin:20px;;
 }
 
@@ -302,4 +302,15 @@ margin: 0px 10px 10px 10px;
 	margin: 10px 20px 40px;
 	font-size:14px;
 	color:#960;
+}
+
+/* Node Images */
+
+.field-name-field-images {
+	
+}
+
+.field-name-field-images .field-item img {
+	width:150px;
+	height:100px;
 }

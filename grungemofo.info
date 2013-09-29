@@ -1,0 +1,8 @@
+name = Grunge MoFo Theme
+description = Theme developed by Marky Mark Ali
+core = 7.x
+engine = phptemplate
+version = 1.0
+
+stylesheets[all][] = css/style.css
+scripts[all] = scripts/jquery.cycle.all.js

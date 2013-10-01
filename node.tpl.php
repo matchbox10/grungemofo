@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix item border-shadow"<?php print $attributes; ?>>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix item bum border-shadow"<?php print $attributes; ?>>
 
   <?php print render($title_prefix); ?>
   <?php if (!$page){ ?>

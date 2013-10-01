@@ -38,8 +38,7 @@
 <div id="latest-article">
 <div id="latest-image" class="border-rad crazy-border">
   </div>
-  <h2>This is a test</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut turpis sed lorem sagittis rutrum. Aliquam sed interdum elit, sit amet auctor ante. Duis mollis magna ac metus hendrerit tincidunt. Duis nec ante tincidunt, viverra purus in, bibendum magna. Pellentesque cursus bibendum euismod. Donec aliquet massa eu magna sodales, in tincidunt dui malesuada. Duis scelerisque odio vestibulum felis auctor, at tincidunt erat sollicitudin.</p>
+ <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
   </div>
 </div>
 </div>

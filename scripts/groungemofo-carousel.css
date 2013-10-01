@@ -1,0 +1,22 @@
+/* CSS Document */
+
+/* jcycle main carousel */
+
+.jcycle-carousel {
+	/*overflow:hidden;*/
+}
+
+.jcycle-items {
+	width: 550px;
+	
+}
+
+.jcycle-items ul.jcycle-item li {
+	display:block;
+	background:#0F3;
+	list-style:none;
+}
+
+.jgrunge-items {
+	border:solid 2px #F00;
+}

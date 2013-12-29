@@ -111,7 +111,7 @@ h3,h4 {
 /* Menu */
 
 #logo {
-	margin-left:50px;
+	margin-left:10px;
 }
 
 #first-col {
@@ -128,7 +128,7 @@ h3,h4 {
 	width: 200px;
 	position:absolute;
 	top: 156px;
-right: 28px;
+left: 35px;
 	
 }
 #rand {
@@ -358,13 +358,19 @@ border-radius: 5px;
 
 /* jcycle main carousel */
 
+.head-carousel {
+    height: 213px;
+overflow: hidden;
+
+}
+
+
 .jcycle-carousel {
 	/*overflow:hidden;*/
 }
 
 .jcycle-items {
 	width: 645px;
-	overflow:hidden;
 	
 }
 
@@ -373,34 +379,41 @@ border-radius: 5px;
 	list-style:none;
 	height:228px;
 	position:relative;
+
 }
 
 
 .jcycle-items ul.jcycle-item li.jgrunge-items .views-field-title {
-	position:absolute;
+	/*position:absolute;
 	left: 77px;
 	top: 21px;
 	z-index:11;
-	background-color:rgba(88, 88, 88, 0.9);
+	background-color:rgba(88, 88, 88, 0.9);*/
 	
 }
 
 .jcycle-items ul.jcycle-item li.jgrunge-items .views-field-title a {
+	position:absolute;
+	top: -10px;
+	right: -635px;
 	text-decoration:none;
-	color:#FDFDFD;
+	color:#4b4b4b;
 	font-size:18px;
 	font-weight:600;
-	width:1000px;
 	display:block;
 	padding:5px 13px 5px 12px;
-	border:solid 1px #333;
+	border:solid 2px #ac8946;
+	background:rgba(255, 255, 255, 0.95);
+	-webkit-transform: rotate(6deg);
+	z-index:15;
+
 }
 
 .jcycle-items ul.jcycle-item li.jgrunge-items .views-field-term-node-tid {
-	position:absolute;
-	bottom:0px;
-	right:20px;
-	z-index:40;
+	position: absolute;
+	bottom: -15px;
+	right: -618px;
+	z-index: 40;
 }
 
 .jcycle-items ul.jcycle-item li.jgrunge-items .views-field-term-node-tid a {
@@ -418,23 +431,46 @@ border-radius: 5px;
 .jcycle-items ul.jcycle-item li.jgrunge-items .bg-img {
 	position: absolute;
 	z-index: 10;
+
+}
+
+.cycle-title {
+	display:none;
 }
 
 .jcycle-items ul.jcycle-item li.jgrunge-items .grunge-teaser {
 
 }
 
-.jcycle-items ul.jcycle-item li.jgrunge-items .views-field-body .grunge-teaser {
+ul.jcycle-item li.jgrunge-items .views-field-body .grunge-teaser {
 position: absolute;
 z-index: 10;
-top: 57px;
+top: 70px;
 left: 275px;
 max-height: 140px;
-background-color: rgba(0, 0, 0, 0.55);
+background-color: rgba(255, 255, 255, 0.81);
+width: 340px;
 }
 
-.jcycle-items ul.jcycle-item li.jgrunge-items .views-field-body .grunge-teaser p {
+ul.jcycle-item li.jgrunge-items .views-field-body .grunge-teaser p {
 	color:#FFF;
 	font-size:12px;
 	margin:10px 6px 6px 10px;
 }
+
+.jcycle-item {
+	height:215px;
+	width:100%;
+}
+
+ul.jcycle-item li.jgrunge-items .bg-img img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 14px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 14px rgba(50, 50, 50, 0.75);
+
+
+}
+	

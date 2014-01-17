@@ -12,8 +12,8 @@ function on_after() {
 
 // jcycle instantiate
 function start_cycle() {
-	jQuery('.jcycle-item').cycle({ 
-    fx:    'fade', 
+	jQuery('.jheader .view-content').cycle({ 
+    fx:    'scrollDown', 
     speed:  2500,
 	before:	on_before,
 	after: on_after
